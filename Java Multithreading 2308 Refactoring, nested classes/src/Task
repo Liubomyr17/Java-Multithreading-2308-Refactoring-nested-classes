@@ -1,0 +1,12 @@
+2308 Refactoring, nested classes
+Refactor the Solution class: put all the constants in the public nested Constants class.
+Prohibit inheriting from Constants.
+
+Requirements:
+1. In the Solution class, the Constants class must be created containing string constants.
+2. The Constants class must be public.
+3. The Constants class must be declared with a modifier prohibiting inheritance from this class.
+4. In the Constants class, the constant SERVER_IS_NOT_ACCESSIBLE_FOR_NOW must exist with the value "Server is not accessible for now.".
+5. The Constants class must have a constant USER_IS_NOT_AUTHORIZED with the value "User is not authorized.".
+6. In the Constants class, there must be a constant USER_IS_BANNED with the value "User is banned.".
+7. A constant ACCESS_IS_DENIED with the value "Access is denied." Must exist in the Constants class.
